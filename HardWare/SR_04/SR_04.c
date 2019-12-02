@@ -39,7 +39,7 @@ u32 GetEchoTimer(void)
    return t;
 }
  //通过定时器4计数器值推算正前方距离
-float Hcsr04GetLength_FRONT(void )
+float Hcsr04GetLength_LEFT(void )
 {
    u32 t = 0;
    int i = 0;
@@ -64,7 +64,7 @@ float Hcsr04GetLength_FRONT(void )
     return lengthTemp;
 }
 //通过定时器4计数器值推算左边距离
-float Hcsr04GetLength_LEFT(void )
+float Hcsr04GetLength_FRONT(void )
 {
    u32 t = 0;
    int i = 0;

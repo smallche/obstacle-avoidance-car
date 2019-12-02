@@ -7,7 +7,7 @@
 
 
 
-#define S 3//危险距离
+#define S 30//危险距离
 
 
 //三个任务的堆栈
@@ -34,9 +34,15 @@ void TaskLedOn1(void *p_arg)
 		  R_length = Hcsr04GetLength_RIGHT();
 			printf("Right:%.2f\n",R_length);
       
-      a1=F_length;
+			if(F_length<30){
+				  RightTurn_Init();
+			}else{
+				qianjin_Init();
+			}
+		
+   /*   a1=F_length;
       b1=L_length;
-      c1=R_length;
+     c1=R_length;
    
       if(a1<=S&&b1<c1){
           RightTurn_Init();		
@@ -57,7 +63,7 @@ void TaskLedOn1(void *p_arg)
 			b0=b1;
 			c0=c1;
 			
-			
+			*/
 			
 		}
 
