@@ -3,7 +3,7 @@
 .\objects\motor.o: .\HardWare\sys\sys.h
 .\objects\motor.o: .\Libraries\CMSIS\DeviceSupport\stm32f10x.h
 .\objects\motor.o: .\Libraries\CMSIS\CoreSupport\core_cm3.h
-.\objects\motor.o: D:\program\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\motor.o: .\Libraries\CMSIS\DeviceSupport\system_stm32f10x.h
 .\objects\motor.o: .\App\stm32f10x_conf.h
 .\objects\motor.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h

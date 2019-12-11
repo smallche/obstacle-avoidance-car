@@ -2,7 +2,7 @@
 .\objects\pwm.o: .\Bsp\bsp.h
 .\objects\pwm.o: .\Libraries\CMSIS\DeviceSupport\stm32f10x.h
 .\objects\pwm.o: .\Libraries\CMSIS\CoreSupport\core_cm3.h
-.\objects\pwm.o: D:\program\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pwm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\pwm.o: .\Libraries\CMSIS\DeviceSupport\system_stm32f10x.h
 .\objects\pwm.o: .\App\stm32f10x_conf.h
 .\objects\pwm.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -30,6 +30,6 @@
 .\objects\pwm.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\objects\pwm.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\objects\pwm.o: .\HardWare\usart\usart.h
-.\objects\pwm.o: D:\program\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\pwm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\pwm.o: .\HardWare\sys\sys.h
 .\objects\pwm.o: .\HardWare\SR_04\SR_04.h

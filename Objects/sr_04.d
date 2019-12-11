@@ -3,7 +3,7 @@
 .\objects\sr_04.o: .\HardWare\sys\sys.h
 .\objects\sr_04.o: .\Libraries\CMSIS\DeviceSupport\stm32f10x.h
 .\objects\sr_04.o: .\Libraries\CMSIS\CoreSupport\core_cm3.h
-.\objects\sr_04.o: D:\program\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sr_04.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\sr_04.o: .\Libraries\CMSIS\DeviceSupport\system_stm32f10x.h
 .\objects\sr_04.o: .\App\stm32f10x_conf.h
 .\objects\sr_04.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -31,5 +31,5 @@
 .\objects\sr_04.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\objects\sr_04.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\objects\sr_04.o: .\HardWare\usart\usart.h
-.\objects\sr_04.o: D:\program\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\sr_04.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\sr_04.o: .\HardWare\delay\delay.h

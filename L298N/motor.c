@@ -46,11 +46,11 @@ void qianjin_Init(void)
 		 GPIO_SetBits(GPIOA,GPIO_Pin_4);     //IN1=1
 	   GPIO_ResetBits(GPIOA,GPIO_Pin_5);    //IN2=0
 	   //左轮
-	    TIM_SetCompare2(TIM3,720);  	        //产生占空比，数越大越慢
+	    TIM_SetCompare2(TIM3,690);  	        //产生占空比，数越大越慢
 		 GPIO_SetBits(GPIOC,GPIO_Pin_14);     //IN3=1                                                               
 	   GPIO_ResetBits(GPIOC,GPIO_Pin_13);    //IN4=0
 	//右轮
-	   TIM_SetCompare3(TIM3,720);  	        //产生占空比，数越大越慢
+	   TIM_SetCompare3(TIM3,690);  	        //产生占空比，数越大越慢
 		 GPIO_SetBits(GPIOA,GPIO_Pin_11);     //IN1=1
 	   GPIO_ResetBits(GPIOA,GPIO_Pin_8);    //IN2=0
 	   //左轮
@@ -79,12 +79,12 @@ void RollBack_Init(){
 
 void Rotate_Init(void){
 	   TIM_SetCompare1(TIM3,600);  	        //产生占空比，数越大越慢
-		 GPIO_SetBits(GPIOA,GPIO_Pin_5);     //IN1=1
-	   GPIO_ResetBits(GPIOA,GPIO_Pin_4);    //IN2=0
+		 GPIO_SetBits(GPIOA,GPIO_Pin_4);     //IN1=1
+	   GPIO_ResetBits(GPIOA,GPIO_Pin_5);    //IN2=0
 	   //左轮
 	    TIM_SetCompare2(TIM3,600);  	        //产生占空比，数越大越慢
-		 GPIO_SetBits(GPIOC,GPIO_Pin_14);     //IN3=1                                                               
-	   GPIO_ResetBits(GPIOC,GPIO_Pin_13);    //IN4=0
+		 GPIO_SetBits(GPIOC,GPIO_Pin_13);     //IN3=1                                                               
+	   GPIO_ResetBits(GPIOC,GPIO_Pin_14);    //IN4=0
 	//右轮
 	   TIM_SetCompare3(TIM3,600);  	        //产生占空比，数越大越慢
 		 GPIO_SetBits(GPIOA,GPIO_Pin_8);     //IN1=1
