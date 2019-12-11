@@ -17,8 +17,7 @@ int main(void)
   BSP_Initializes();                             //板子底层初始化
 	OSTick_Init();                                 //初始化滴答时钟
 	delay_init();
-	RightTurn_Init();
-	while(1);
+	qianjin_Init();
 	TaskCreate(p_null);
 	OSStart();
 	return 0;

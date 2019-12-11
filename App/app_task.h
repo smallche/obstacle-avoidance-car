@@ -14,7 +14,9 @@ void TaskLedOn3(void *p_arg);
 
 
 #define TaskInitPrio                        3
-#define TaskLedDisPrio                             8
+#define TaskLedDisPrio                             7
+#define TaskLedDisPrio2                             8
+
 #define TaskTurnPrio                             9
 #define TaskLedOn3Prio                             10
 

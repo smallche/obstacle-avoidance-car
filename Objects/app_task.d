@@ -6,7 +6,7 @@
 .\objects\app_task.o: .\Bsp\bsp.h
 .\objects\app_task.o: .\Libraries\CMSIS\DeviceSupport\stm32f10x.h
 .\objects\app_task.o: .\Libraries\CMSIS\CoreSupport\core_cm3.h
-.\objects\app_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\app_task.o: D:\program\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\app_task.o: .\Libraries\CMSIS\DeviceSupport\system_stm32f10x.h
 .\objects\app_task.o: .\App\stm32f10x_conf.h
 .\objects\app_task.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -34,7 +34,7 @@
 .\objects\app_task.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\objects\app_task.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\objects\app_task.o: .\HardWare\usart\usart.h
-.\objects\app_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\app_task.o: D:\program\keil\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\app_task.o: .\HardWare\sys\sys.h
 .\objects\app_task.o: .\HardWare\SR_04\SR_04.h
 .\objects\app_task.o: .\HardWare\SR_04\SR_04.h

@@ -608,14 +608,14 @@
               <FilePath>.\App\main.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f10x_it.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\App\stm32f10x_it.c</FilePath>
-            </File>
-            <File>
               <FileName>app_task.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\App\app_task.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_it.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\App\stm32f10x_it.c</FilePath>
             </File>
           </Files>
         </Group>

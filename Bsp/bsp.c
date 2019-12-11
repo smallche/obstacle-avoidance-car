@@ -83,13 +83,13 @@ void L298N1_Init(void)
  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;		 //IO口速度为50MHz
  GPIO_Init(GPIOA, &GPIO_InitStructure);					       //根据设定参数初始化PA11|PA12
- GPIO_SetBits(GPIOA,GPIO_Pin_8|GPIO_Pin_12);
+ //GPIO_SetBits(GPIOA,GPIO_Pin_12|GPIO_Pin_11);
  
  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11|GPIO_Pin_15;//PA3端口配置
  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;		 //IO口速度为50MHz
  GPIO_Init(GPIOA, &GPIO_InitStructure);					       //根据设定参数初始化PA3|PA4
- GPIO_ResetBits(GPIOA,GPIO_Pin_11|GPIO_Pin_15);
+ //GPIO_ResetBits(GPIOA,GPIO_Pin_8|GPIO_Pin_15);
 
 }
 
@@ -101,25 +101,25 @@ void L298N2_Init(void)
  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;		 //IO口速度为50MHz
  GPIO_Init(GPIOA, &GPIO_InitStructure);					       //根据设定参数初始化PA11|PA12
- GPIO_SetBits(GPIOA,GPIO_Pin_4);
+ //GPIO_SetBits(GPIOA,GPIO_Pin_4);
  
  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5|GPIO_Pin_7;//PA3端口配置
  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;		 //IO口速度为50MHz
  GPIO_Init(GPIOA, &GPIO_InitStructure);					       //根据设定参数初始化PA3|PA4
- GPIO_ResetBits(GPIOA,GPIO_Pin_5);
+ //GPIO_ResetBits(GPIOA,GPIO_Pin_5);                            
 
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_14;//PA3端口配置
  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;		 //IO口速度为50MHz
  GPIO_Init(GPIOC, &GPIO_InitStructure);					       //根据设定参数初始化PA3|PA4
- GPIO_SetBits(GPIOC,GPIO_Pin_14);
+ //GPIO_SetBits(GPIOC,GPIO_Pin_14);
 	
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_13;//PA3端口配置
  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;		 //IO口速度为50MHz
  GPIO_Init(GPIOC, &GPIO_InitStructure);					       //根据设定参数初始化PA3|PA4
- GPIO_ResetBits(GPIOC,GPIO_Pin_13);
+ //GPIO_Rese336tBits(GPIOC,GPIO_Pin_13);
 }
 
 void BSP_Initializes(void)
