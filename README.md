@@ -2,7 +2,7 @@
 ## Overview
 We are four students from the School of Software Engineering, University of Electronic Science and Technology of China. This project is our one and a half year comprehensive course design project. The purpose is to design an ultrasonic automatic obstacle avoidance car.
 
-![](./Images/car_all.jpg)
+<div align=center><img src="./Images/car_all.jpg" width=""></div>
 
 ## Car hardware
 - STM32C8T6 core board *1
@@ -35,10 +35,10 @@ Libraries|STM32 required library files
 uCOS-II|uCOS-II system source code
 
 ## Operation
-![](./Images/car_avoid_1.png)
+<div align=center><img src="./Images/car_avoid_1.png" width=""></div>
 <center>Obstacles detected in front and right</center>
 
-![](./Images/car_avoid_2.png)
+<div align=center><img src="./Images/car_avoid_2.png" width=""></div>
 <center>Avoid obstacles</center>
 
 ```

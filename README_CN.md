@@ -2,7 +2,7 @@ For English version, See [README.md](./README.md)
 ## 概况
 我们是四名来自电子科技大学软件工程学院的学生。该项目是我们为期一年半的综合课程设计项目。目的是设计一个超声波自动避障小车。
 
-![](./Images/car_all.jpg)
+<div align=center><img src="./Images/car_all.jpg" width=""></div>
 
 ## 小车使用的硬件
 - STM32C8T6核心板*1
@@ -35,10 +35,10 @@ Libraries|STM32所需库文件
 uCOS-II|uCOS-II系统的源代码
 > Note: 如果源码中有乱码，那是因为Keil的默认编码格式为GB2312，而一般编辑器默认为UTF-8。
 ## 运行情况
-![](./Images/car_avoid_1.png)
+<div align=center><img src="./Images/car_avoid_1.png" width=""></div>
 <center>检测到前方和右方有障碍物</center>
 
-![](./Images/car_avoid_2.png)
+<div align=center><img src="./Images/car_avoid_2.png" width=""></div>
 <center>避开障碍物</center>
 
 ``` 
