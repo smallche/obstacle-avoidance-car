@@ -8,8 +8,8 @@
 
 
 void TaskCreate(void *p_arg);
-void TaskLedDis(void *p_arg);
-void TaskTurn(void *p_arg);
+void Task1(void *p_arg);
+void Task2(void *p_arg);
 void TaskLedOn3(void *p_arg);
 
 
